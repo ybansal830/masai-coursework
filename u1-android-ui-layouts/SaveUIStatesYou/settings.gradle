@@ -1,0 +1,2 @@
+rootProject.name = "SaveUiStatesYou"
+include ':app'
