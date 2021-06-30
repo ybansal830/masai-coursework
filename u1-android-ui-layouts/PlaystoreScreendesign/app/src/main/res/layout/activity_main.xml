@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#079527">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bookmark"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"/>
+
+        <View
+            android:id="@+id/gRec"
+            android:layout_width="95dp"
+            android:layout_height="86dp"
+            android:background="#14AE24"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"/>
+
+        <View
+            android:layout_width="119dp"
+            android:layout_height="18dp"
+            android:background="#C4C4C4"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="126dp"/>
+
+        <View
+            android:layout_width="89dp"
+            android:layout_height="15dp"
+            android:background="#C4C4C4"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="126dp"/>
+
+        <View
+            android:layout_width="45dp"
+            android:layout_height="11dp"
+            android:background="#C4C4C4"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="126dp"/>
+
+        <Button
+            android:layout_width="157dp"
+            android:layout_height="29dp"
+            android:background="@drawable/button"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="30dp"/>
+
+        <Button
+            android:layout_width="157dp"
+            android:layout_height="29dp"
+            android:background="#079527"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="207dp"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="60dp"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="160dp"/>
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/circle"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="260dp"/>
+
+        <View
+            android:layout_width="278dp"
+            android:layout_height="24dp"
+            android:background="#C4C4C4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"/>
+
+        <View
+            android:layout_width="318dp"
+            android:layout_height="40dp"
+            android:background="#C4C4C4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
