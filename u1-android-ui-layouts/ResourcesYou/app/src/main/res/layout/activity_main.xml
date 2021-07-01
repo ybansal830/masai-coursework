@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:src="@drawable/cross" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/emp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/headline"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp_50">
+
+        <TextView
+            style="@style/textmenu"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="Title:" />
+
+        <TextView
+            style="@style/textmenu"
+            android:layout_marginTop="60dp"
+            android:text="First Name:" />
+
+        <TextView
+            style="@style/textmenu"
+            android:layout_marginTop="100dp"
+            android:text="Last Name:" />
+
+        <TextView
+            style="@style/textmenu"
+            android:layout_marginTop="140dp"
+            android:text="Work Email:" />
+
+        <EditText
+            style="@style/textinput"
+            android:background="@drawable/bggrad"
+            android:layout_marginTop="15dp"
+            android:hint="Select Option"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            style="@style/textinput"
+            android:textColor="#C0C0C0"
+            android:background="@drawable/bgbord"
+            android:layout_marginTop="60dp"
+            android:text="Jonathan" />
+
+        <EditText
+            style="@style/textinput"
+            android:textColor="#C0C0C0"
+            android:background="@drawable/bgbord"
+            android:layout_marginTop="100dp"
+            android:text="Last Name:" />
+
+        <EditText
+            style="@style/textinput"
+            android:textColor="#C0C0C0"
+            android:background="@drawable/bgbord"
+            android:layout_marginTop="140dp"
+            android:text="Work Email:" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
