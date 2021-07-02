@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/vfirst"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0583EA"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivfirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/vfirst"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/vfirst"
+        app:layout_constraintStart_toEndOf="@+id/ivfirst"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/vfirst"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cvsecond"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/vtwo"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginHorizontal="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#858992"
+        app:layout_constraintTop_toBottomOf="@+id/cvfirst" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvsecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/vtwo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:padding="10dp"
+            android:textColor="@color/black"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/vthree"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginHorizontal="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#858992"
+        app:layout_constraintTop_toBottomOf="@+id/cvsecond"/>
+
+    <TextView
+        android:id="@+id/tvtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USE PHONE NUMBER"
+        app:layout_constraintTop_toBottomOf="@+id/vthree"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btone"
+        android:layout_marginTop="30dp"
+        android:textColor="#0583EA"/>
+
+    <Button
+        android:id="@+id/btone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvtwo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvthree"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="#858992"/>
+
+    <TextView
+        android:id="@+id/tvthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        app:layout_constraintTop_toBottomOf="@+id/btone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:textColor="#858992"/>
+
+    <TextView
+        android:id="@+id/tvfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        app:layout_constraintTop_toBottomOf="@+id/tvthree"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/bttwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvfour"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btthree"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:text="CONTINUE WITH FACEBOOK"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="#3B5998"
+        android:drawableLeft="@drawable/facebook"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"/>
+
+
+    <Button
+        android:id="@+id/btthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/bttwo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="80dp"
+        android:text="CONTINUE WITH GOOGLE"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/shape"
+        android:drawableLeft="@drawable/google"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
