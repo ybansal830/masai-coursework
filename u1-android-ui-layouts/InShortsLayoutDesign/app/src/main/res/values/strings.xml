@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InShortsLayoutDesign</string>
+    <string name="headline">Punjab 1st in India to Ban Cigarette</string>
+    <string name="news">Your smoke is also bad for other people -
+        they breathe in your smoke secondhand and can get many of
+        the same problems as smokers do. This includes heart disease
+        and lung cancer. Children exposed to secondhand smoke have a
+        higher risk of ear infections, colds, pneumonia, bronchitis,
+        and more severe asthma. Mothers who breathe secondhand smoke
+        while pregnant are more likely to have preterm labor
+        and babies with low birth weight.</string>
+    <string name="time">Published at 12:00 pm</string>
+</resources>
