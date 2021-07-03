@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kakshasignup</string>
+    <string name="create_account">Create account</string>
+    <string name="email_text">alma.lawson@example.com</string>
+    <string name="name_text">Jane Cooper</string>
+    <string name="password_text">Password (minimum 6 characters)</string>
+    <string name="sign_up">Sign up</string>
+    <string name="facebook_button_text">continue with facebook</string>
+    <string name="google_button_text">continue with google</string>
+</resources>
