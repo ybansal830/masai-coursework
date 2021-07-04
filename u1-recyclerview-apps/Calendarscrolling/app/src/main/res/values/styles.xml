@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bg">
+        <item name="android:background">@drawable/btbg</item>
+        <item name="android:textColor">@color/cardview_dark_background</item>
+        <item name="android:textSize">@dimen/dp_50</item>
+        <item name="android:layout_marginTop">@dimen/dp_50</item>
+    </style>
+    <style name="bgo">
+        <item name="android:background">@drawable/btbg</item>
+        <item name="android:textColor">@color/cardview_dark_background</item>
+        <item name="android:textSize">@dimen/dp_50</item>
+    </style>
+</resources>
