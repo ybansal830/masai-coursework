@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Task Management</string>
+    <string name="account_creation">Create an account</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="email">Email</string>
+    <string name="login">Log In</string>
+    <string name="password">Password</string>
+    <string name="password_forgot">Forgot your password?</string>
+    <string name="password_re_enter">Re-enter Password</string>
+    <string name="hey_msg">Hey Sofia,</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="today">Today</string>
+    <string name="meeting">Meeting with Omar</string>
+    <string name="eight_am">08:00 AM</string>
+    <string name="webinar">Webinar on Gradle API</string>
+    <string name="one_pm">01:00 PM</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="frontend">Front End Development</string>
+    <string name="may_14">14th May 2021</string>
+    <string name="backend">Back End Development</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="new_task">Create New Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="title">Task Title</string>
+    <string name="description">Task Description</string>
+    <string name="date">Date</string>
+    <string name="status">Task Status</string>
+    <string name="add_task">Add New Task</string>
+    <string name="changes">Apply Changes</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="mar_24">24 March 2021</string>
+</resources>
