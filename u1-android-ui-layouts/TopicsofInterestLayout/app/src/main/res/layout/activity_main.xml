@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/vOne"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:background="@color/blue" />
+
+            <ImageView
+                android:id="@+id/ivOne"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_20"
+                android:layout_margin="@dimen/dp_15"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_toRightOf="@+id/ivOne"
+                android:text="@string/headline"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_20" />
+
+            <Button
+                android:id="@+id/btOne"
+                style="@style/topic_button_one"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_50"
+                android:layout_below="@+id/vOne"
+                android:background="@drawable/btbgtwo"
+                android:text="Books"
+                android:textColor="@color/white"/>
+
+            <Button
+                style="@style/topic_button_two"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/vOne"
+                android:background="@drawable/btnbgone"
+                android:text="Podcast" />
+
+            <Button
+                android:id="@+id/btTwo"
+                style="@style/topic_button_one"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_50"
+                android:layout_below="@+id/btOne"
+                android:background="@drawable/btnbgone"
+                android:text="News" />
+
+            <Button
+                style="@style/topic_button_two"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btOne"
+                android:background="@drawable/btnbgone"
+                android:text="Business" />
+
+            <Button
+                android:id="@+id/btThree"
+                style="@style/topic_button_one"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_50"
+                android:layout_below="@+id/btTwo"
+                android:background="@drawable/btnbgone"
+                android:text="Entertainment" />
+
+            <Button
+                style="@style/topic_button_two"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btTwo"
+                android:background="@drawable/btbgtwo"
+                android:text="Sports"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btfour"
+                style="@style/topic_button_one"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_50"
+                android:layout_below="@+id/btThree"
+                android:background="@drawable/btbgtwo"
+                android:text="Technology" />
+
+            <Button
+                style="@style/topic_button_two"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btThree"
+                android:background="@drawable/btnbgone"
+                android:text="Pronunciation" />
+
+            <Button
+                android:id="@+id/btFive"
+                style="@style/topic_button_one"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_50"
+                android:layout_below="@+id/btfour"
+                android:background="@drawable/btnbgone"
+                android:text="Grammer" />
+
+            <Button
+                style="@style/topic_button_two"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btfour"
+                android:background="@drawable/btnbgone"
+                android:text="Health" />
+
+            <View
+                android:id="@+id/vTwo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:background="@color/blue"
+                android:layout_below="@+id/btFive"
+                android:layout_marginTop="@dimen/dp_80"/>
+
+            <Button
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="wrap_content"
+                android:text="Continue"
+                android:textColor="@color/blue"
+                android:textAllCaps="false"
+                android:layout_below="@+id/btFive"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_100"
+                android:background="@drawable/btbgthree"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
