@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Schedule Meeting"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOne"
+        android:layout_margin="20dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/etOne"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="80dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etOne"
+        android:layout_margin="40dp"
+        android:background="@drawable/background"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Tue - 22 December 2020" />
+
+    <TextView
+        android:id="@+id/tvFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etOne"
+        android:layout_margin="40dp"
+        android:layout_toRightOf="@+id/tvThree"
+        android:background="@drawable/background"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="11:30am" />
+
+    <TextView
+        android:id="@+id/tvFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFour"
+        android:layout_margin="20dp"
+        android:text="People to invite" />
+
+    <EditText
+        android:id="@+id/etTwo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="270dp"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFour"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/ei_search" />
+
+    <ImageView
+        android:id="@+id/ivTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTwo"
+        android:layout_margin="30dp"
+        android:src="@drawable/prateeksukla" />
+
+    <ImageView
+        android:id="@+id/ivThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTwo"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/jeffbezos" />
+
+    <View
+        android:id="@+id/vOne"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/ivThree"
+        android:layout_marginTop="30dp"
+        android:background="#C4C4C4" />
+
+    <ImageView
+        android:id="@+id/ivFour"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_below="@+id/vOne"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/prateeksukla" />
+
+    <TextView
+        android:id="@+id/tvSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vOne"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/ivFour"
+        android:text="Prateek Shukla"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/ivFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vOne"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/tvSix"
+        android:src="@drawable/bluetick"/>
+
+    <TextView
+        android:id="@+id/tvSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @PratShukla"
+        android:layout_below="@+id/vOne"
+        android:layout_toRightOf="@id/ivFive"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="end"
+        android:textSize="10sp"
+        android:layout_marginEnd="50dp"/>
+
+    <View
+        android:id="@+id/vTwo"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/ivFour"
+        android:background="#C4C4C4"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="50dp"/>
+
+    <ImageView
+        android:id="@+id/ivSix"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_below="@+id/vTwo"
+        android:src="@drawable/jeffbezos"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvEight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vTwo"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/ivFour"
+        android:text="Jeff bezos"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvNine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @Jefbezoz"
+        android:layout_below="@+id/vTwo"
+        android:layout_toRightOf="@id/ivFive"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="end"
+        android:textSize="10sp"
+        android:layout_marginEnd="50dp"/>
+
+    <View
+        android:id="@+id/vThree"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#C4C4C4"
+        android:layout_below="@+id/ivSix"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify people on Slack ?"
+        android:textColor="@color/black"
+        android:layout_below="@+id/vThree"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vThree"
+        android:layout_toRightOf="@id/tvTen"
+        android:src="@drawable/slack"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Meeting"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvTen"
+        android:textAllCaps="false"
+        android:background="#8095FF"
+        android:textColor="@color/white"
+        android:paddingHorizontal="20dp"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
